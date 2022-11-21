@@ -4,6 +4,7 @@
 run/
 autotest/
 dist/
+volderyarn/
 
 # Gradle
 build/
@@ -11,12 +12,17 @@ build/
 classes/
 *.class
 
+/out
+
 # IntelliJ Files
 .idea/
 *.iml
 *.ipr
 *.iws
 /logs/
+
+tweaker/logs/
+common/logs/
 
 # Eclipse Files
 .classpath
@@ -29,4 +35,6 @@ baritone_Client.launch
 !/.idea/copyright/profiles_settings.xml
 
 .vscode/launch.json
+.architectury-transformer
 
+mapping
